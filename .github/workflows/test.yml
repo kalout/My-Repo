@@ -2,7 +2,7 @@ name: My Action
 on:
   workflow_dispatch:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
   issues:
     types: [opened, edited, deleted, transferred, pinned, unpinned, closed, reopened, labeled, unlabeled, locked, unlocked, milestoned, demilestoned]
   pull_request_target:
